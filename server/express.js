@@ -5,7 +5,7 @@ import compress from 'compression'
 import cors from 'cors'
 import helmet from 'helmet'
 import Template from './../template.js'
-import userRoutes from './routes/user.routes.js'
+import userRoutes from '../server/routes/user.route.js'
 const app = express()
 //...
 app.get('/', (req, res) => {

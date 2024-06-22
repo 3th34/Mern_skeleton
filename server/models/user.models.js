@@ -29,9 +29,9 @@ salt: String
 });
 UserSchema.virtual('password')
 .set(function(password) {
-this._password = password;
+//this._password = password;
 //this.salt = this.makeSalt();
-this.hashed_password = password;
+//this.hashed_password = password;
 //this.hashed_password = this.encryptPassword(password);
 })
 .get(function() {
